@@ -48,7 +48,7 @@ class _GameScreenState extends State<GameScreen> {
       default:
     }
 
-    if (Choice.gameRule[widget.gameChoice.type]![robotChoice] == 'Tú ganas') {
+    if (Choice.gameRule[widget.gameChoice.type]![robotChoice] == 'GANAS') {
       setState(() {
         Game.score++;
       });
